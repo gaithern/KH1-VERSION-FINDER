@@ -1,0 +1,30 @@
+{
+  "combo": {
+    "anchor": "soraStats",
+    "delta": -13666
+  },
+  "currentTerminus": {
+    "anchor": "terminusTeleUsable",
+    "delta": 192
+  },
+  "menuItemSlotCount": {
+    "anchor": "menuCheck",
+    "delta": 1466
+  },
+  "menuMaxButtonCount": {
+    "anchor": "menuCheck",
+    "delta": 1464
+  },
+  "OCCupDialog": {
+    "anchor": "ardOff",
+    "delta": 6912
+  },
+  "skipFlag2": {
+    "anchor": "title",
+    "delta": -24
+  },
+  "textBox": {
+    "anchor": "fireState1",
+    "delta": 996
+  }
+}

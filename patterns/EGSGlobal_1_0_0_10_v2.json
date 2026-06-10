@@ -1,0 +1,2270 @@
+{
+  "animSpeed": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "0F 5B C9 F3 48 0F 2A C0 F3 0F 59 05 ?? ?? ?? ?? F3 0F 5C C8 F3 0F 2C C1",
+      "wc_start": 12,
+      "rva": 36963788,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "beepHack": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "09 0F 9C C1 8B C1 48 83 C4 20 5F C3 48 89",
+      "wc_start": null,
+      "rva": 2539676,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "blackFade": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "01 00 00 00 48 8B 44 24 08 48 89 05 ?? ?? ?? ?? 48 C7 44 24 08 08 00 00",
+      "wc_start": 12,
+      "rva": 5100536,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "buttonTypes": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "D9 E8 30 51 00 00 45 33 FF 48 8D 35 ?? ?? ?? ?? 85 C0 0F 84 07 05 00 00",
+      "wc_start": 12,
+      "rva": 48369440,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "closeMenu": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "C4 48 89 84 24 E0 00 00 00 48 8B 1D ?? ?? ?? ?? 48 85 DB 0F 84 73 04 00",
+      "wc_start": 12,
+      "rva": 48843680,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "cutscene": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "34 83 F9 07 74 12 85 C9 74 0E 39 35 ?? ?? ?? ?? 74 1E 44 8D 7E FB EB 18",
+      "wc_start": 12,
+      "rva": 36958708,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "cutsceneFlagBase": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "6E 3C 32 A0 46 78 00 78 96 C3 33 00 00 1E",
+      "wc_start": null,
+      "rva": 48149093,
+      "match_count": 2,
+      "score": 500000,
+      "section": ".data"
+    }
+  },
+  "deathPointer": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "1F 02 48 8B 05 78 78 1F 02 48 89 05 ?? ?? ?? ?? 8B 05 0B BF 1D 02 89 05",
+      "wc_start": 12,
+      "rva": 37324856,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "dest": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "00 48 85 C9 0F 84 97 00 00 00 8B 05 ?? ?? ?? ?? 41 3B C0 75 14 85 DB 74",
+      "wc_start": 12,
+      "rva": 5276288,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "dialog": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "83 C4 28 C3 CC CC 48 83 EC 28 8B 05 ?? ?? ?? ?? 48 C7 05 AB 68 35 02 00",
+      "wc_start": 12,
+      "rva": 43631880,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "fadeBase": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "80 00 00 00 0F 94 C0 C3 33 C0 39 05 ?? ?? ?? ?? 0F 94 C0 C3 CC CC CC CC",
+      "wc_start": 12,
+      "rva": 36964304,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "gummiSelect": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "75 14 85 DB 74 24 83 FB 01 0F 44 05 ?? ?? ?? ?? 89 05 E1 BD 31 00 39 3D",
+      "wc_start": 12,
+      "rva": 5275004,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "gummiStart": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "44 8B CF 48 89 68 10 4D 8B D7 8B 2D ?? ?? ?? ?? 48 89 58 08 0F 1F 80 00",
+      "wc_start": 12,
+      "rva": 5274768,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "hookship": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "00 00 02 00 00 00 1D C9 29 BE C4 67 63 35",
+      "wc_start": null,
+      "rva": 15562014,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".data"
+    }
+  },
+  "inCutscene": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "92 E5 26 02 89 05 90 E5 26 02 8B 05 ?? ?? ?? ?? 83 E0 01 89 05 7D E5 26",
+      "wc_start": 12,
+      "rva": 37211872,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "inGummi": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "00 00 00 00 34 00 00 20 00 00 00 20 00 00",
+      "wc_start": null,
+      "rva": 5276461,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".data"
+    }
+  },
+  "inputAddress": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "90 3D 14 00 84 C0 75 02 03 FF 85 3D ?? ?? ?? ?? 74 16 FF 8B 94 01 00 00",
+      "wc_start": 12,
+      "rva": 36967348,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "maxHP": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "57 0D 0A 34 2F 2A 64 64 64 64 64 64 64 64",
+      "wc_start": null,
+      "rva": 48143718,
+      "match_count": 2,
+      "score": 500000,
+      "section": ".data"
+    }
+  },
+  "menu": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "EE 19 1B 02 89 05 F8 19 1B 02 89 05 ?? ?? ?? ?? 89 05 C4 19 1B 02 E8 C3",
+      "wc_start": 12,
+      "rva": 36891008,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "menuButtonCount": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "00 48 8B CB E8 FF ED 00 00 44 39 3D ?? ?? ?? ?? 41 8B EF 48 63 C8 45 8B",
+      "wc_start": 12,
+      "rva": 48369436,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "menuFunction": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "48 8B CE E8 C4 72 00 00 EB 55 C7 05 ?? ?? ?? ?? 01 00 00 00 E8 D3 E8 FF",
+      "wc_start": 12,
+      "rva": 48369576,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "menuItemSlotCount": {
+    "type": "scalar",
+    "entry": null
+  },
+  "menuMaxButtonCount": {
+    "type": "scalar",
+    "entry": null
+  },
+  "minitimer": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "FF CC CC CC CC CC CC CC CC CC 8B 05 ?? ?? ?? ?? 45 33 DB 85 C0 0F 57 C0",
+      "wc_start": 12,
+      "rva": 36891140,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "reports": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "FF E8 00 00 1F 00 00 00 FF FF FF FF 80 00",
+      "wc_start": null,
+      "rva": 48150304,
+      "match_count": 2,
+      "score": 500000,
+      "section": ".data"
+    }
+  },
+  "room": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "CF 27 1D 02 89 1D 2D 28 1D 02 89 1D ?? ?? ?? ?? 89 1D 29 28 1D 02 E8 EC",
+      "wc_start": 12,
+      "rva": 36966084,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "saveOpenAddress": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "00 48 8B C8 E8 84 88 21 00 44 8B 15 ?? ?? ?? ?? 41 83 C2 FB 89 44 24 30",
+      "wc_start": 12,
+      "rva": 36891012,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "skippable": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "DE 39 1D D8 14 1B 02 74 36 40 84 2D ?? ?? ?? ?? 74 2D 48 8B 0D FA 14 1B",
+      "wc_start": 12,
+      "rva": 37324900,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "soraHP": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "57 00 00 00 57 00 00 00 0D 00 00 00 0D 00",
+      "wc_start": null,
+      "rva": 47568460,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".data"
+    }
+  },
+  "soraHUD": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "F6 05 AD C2 5F 02 08 74 61 4C 89 35 ?? ?? ?? ?? 4C 89 35 51 82 5A 02 4C",
+      "wc_start": 12,
+      "rva": 42020508,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "stateFlag": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "03 00 00 33 C9 E8 5C C6 F5 FF 8B 05 ?? ?? ?? ?? 83 E0 01 89 05 01 7A 1B",
+      "wc_start": 12,
+      "rva": 42368216,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "summoning": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "8B 05 69 82 AB 02 66 0F 6E C2 89 0D ?? ?? ?? ?? 0F 5B C0 F3 0F 11 05 34",
+      "wc_start": 12,
+      "rva": 47585708,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "textProg": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "89 5C 24 08 57 48 83 EC 20 48 63 1D ?? ?? ?? ?? 8B F9 8B 0D 07 28 1B 02",
+      "wc_start": 12,
+      "rva": 36890996,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "warpTrigger": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "11 00 F3 0F 10 05 0B 21 2C 00 C7 05 ?? ?? ?? ?? 02 00 00 00 C7 05 47 1F",
+      "wc_start": 12,
+      "rva": 36620940,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "warpType1": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "CC CC CC CC CC CC 48 83 EC 28 C7 05 ?? ?? ?? ?? 07 00 00 00 E8 DD BC 01",
+      "wc_start": 12,
+      "rva": 36963776,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "warpType2": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "E8 73 3C 11 00 E8 5E AC 05 00 8B 05 ?? ?? ?? ?? 89 05 E2 1D 1D 02 8B 0D",
+      "wc_start": 12,
+      "rva": 36620944,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "white": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "80 00 00 00 0F 94 C0 C3 33 C0 39 05 ?? ?? ?? ?? 0F 95 C0 C3 CC CC CC CC",
+      "wc_start": 12,
+      "rva": 36964380,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "world": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "E8 73 31 06 00 E8 4E 2D 06 00 8B 0D ?? ?? ?? ?? 3B 0D 7E 56 1C 02 75 0C",
+      "wc_start": 12,
+      "rva": 36966092,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "ardOff": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "D7 02 00 00 FF FF FF FF 01 00 00 00 00 00",
+      "wc_start": null,
+      "rva": 37326640,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".data"
+    }
+  },
+  "khamaActive": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "03 C0 00 00 02 00 03 00 00 00 00 00 00 00",
+      "wc_start": null,
+      "rva": 47418032,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".data"
+    }
+  },
+  "OCseed": {
+    "type": "scalar",
+    "entry": null
+  },
+  "roomWarp": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "E2 26 1D 02 89 05 48 26 1D 02 8B 05 ?? ?? ?? ?? C7 05 1C 01 1C 02 00 00",
+      "wc_start": 12,
+      "rva": 36966132,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "soraPointer": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "83 E0 FB 89 05 2A 91 35 02 48 8B 15 ?? ?? ?? ?? 4C 8D 05 34 91 35 02 F3",
+      "wc_start": 12,
+      "rva": 39029264,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "soraStats": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "64 00 5A 00 00 00 00 00 00 00 3D B4 0B 00",
+      "wc_start": null,
+      "rva": 48143766,
+      "match_count": 2,
+      "score": 500000,
+      "section": ".data"
+    }
+  },
+  "theonActive": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "03 80 00 00 10 00 04 00 00 00 00 00 00 00",
+      "wc_start": null,
+      "rva": 47424032,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".data"
+    }
+  },
+  "worldFlagBase": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "B1 02 48 89 05 29 FD B1 02 48 89 05 ?? ?? ?? ?? 48 89 05 2B FD B1 02 48",
+      "wc_start": 12,
+      "rva": 48152240,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "worldWarp": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "1C 02 89 0D 3A 01 1C 02 EB 1C 8B 05 ?? ?? ?? ?? 89 05 48 26 1D 02 8B 05",
+      "wc_start": 12,
+      "rva": 36966128,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "height": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "0F 59 41 0C F3 0F 59 F4 F3 0F 59 25 ?? ?? ?? ?? F3 0F 5E F0 0F 28 C1 F3",
+      "wc_start": 12,
+      "rva": 3884452,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "ach": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "15 1F 01 00 8D 4B FF 8B C1 48 8D 15 ?? ?? ?? ?? 48 C1 E8 05 83 E1 1F 4C",
+      "wc_start": 12,
+      "rva": 35305768,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "attackCommand": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "35 AC 02 48 89 1D BA 34 AC 02 89 1D ?? ?? ?? ?? 89 1D FE 34 AC 02 89 1D",
+      "wc_start": 12,
+      "rva": 5412364,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "attInp": {
+    "type": "scalar",
+    "entry": null
+  },
+  "fireState1": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "33 E9 18 02 0F 8F BA 00 00 00 39 2D ?? ?? ?? ?? 74 1E 39 2D BF 4A 23 02",
+      "wc_start": 12,
+      "rva": 37570944,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "fireState2": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "2C 46 1B 02 89 05 0E 46 1B 02 88 05 ?? ?? ?? ?? 89 05 24 46 1B 02 66 89",
+      "wc_start": 12,
+      "rva": 36890564,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "swapped": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "00 00 00 00 00 00 14 00 00 00 38 00 00 00",
+      "wc_start": null,
+      "rva": 36548654,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".data"
+    }
+  },
+  "anims": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "D6 00 05 FF C8 4C 00 00 00 00 00 00 03 05",
+      "wc_start": null,
+      "rva": 47374640,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".data"
+    }
+  },
+  "attackElement": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "00 00 00 00 01 00 00 00 03 00 00 00 03 00",
+      "wc_start": null,
+      "rva": 47350456,
+      "match_count": 6,
+      "score": 166666,
+      "section": ".data"
+    }
+  },
+  "commandMenuPointer": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "CC CC 48 63 C1 48 C1 E0 04 48 03 05 ?? ?? ?? ?? C3 CC 8D 41 FF 48 63 C8",
+      "wc_start": 12,
+      "rva": 47413072,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "donaldPointer": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "40 1B 02 8B 4A 3C 89 48 1C 48 8B 15 ?? ?? ?? ?? 48 85 D2 74 34 48 8B 05",
+      "wc_start": 12,
+      "rva": 47414408,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "goofyPointer": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "40 1B 02 8B 4A 3C 89 48 2C 48 8B 15 ?? ?? ?? ?? 48 85 D2 74 34 48 8B 05",
+      "wc_start": 12,
+      "rva": 47414416,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "moveSpeed": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "00 00 00 41 00 00 00 00 00 00 3E 43 CD CC",
+      "wc_start": null,
+      "rva": 47568152,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".data"
+    }
+  },
+  "musicPointer": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "34 1B 02 49 63 00 49 03 C0 48 89 05 ?? ?? ?? ?? 49 63 40 04 48 C1 E8 06",
+      "wc_start": 12,
+      "rva": 36890896,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "musicSpeedHack": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "F3 0F 10 35 DD 8F 38 00 0F 2F 71 6C 77 14",
+      "wc_start": null,
+      "rva": 685963,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "soraResist": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "00 00 80 3F 00 00 80 3F 00 00 80 3F 00 00",
+      "wc_start": null,
+      "rva": 47568264,
+      "match_count": 6,
+      "score": 166666,
+      "section": ".data"
+    }
+  },
+  "weaponSize": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "00 00 80 3F 00 00 80 3F 00 00 80 3F 19 01",
+      "wc_start": null,
+      "rva": 13823904,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".data"
+    }
+  },
+  "gravBreak": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "FF 21 00 45 0F 28 D7 F3 44 0F 10 25 ?? ?? ?? ?? 45 0F 57 C0 F3 44 0F 10",
+      "wc_start": 12,
+      "rva": 4117480,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "zantHack": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "CC B8 18 00 0F 2F C8 76 07 44 89 64 24 54",
+      "wc_start": null,
+      "rva": 2772552,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "skipArray1": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "0F 94 C0 C3 33 C0 39 05 C8 80 1C 02 0F 94",
+      "wc_start": null,
+      "rva": 1541884,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "skipArray2": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "0F 94 C0 C3 33 C0 39 05 F4 80 1C 02 0F 95",
+      "wc_start": null,
+      "rva": 1541916,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "skipArray3": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "74 10 85 DB 75 0C 39 35 29 F5 16 02 0F 84",
+      "wc_start": null,
+      "rva": 1561923,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "skipFlag2": {
+    "type": "scalar",
+    "entry": null
+  },
+  "bittestRender": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "1B 02 48 C1 E1 06 8B 4C 01 04 89 0D ?? ?? ?? ?? C3 CC CC CC 48 63 C1 48",
+      "wc_start": 12,
+      "rva": 36890608,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "combo": {
+    "type": "scalar",
+    "entry": null
+  },
+  "cutsceneFlags": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "F0 56 24 04 96 6E 3C 32 A0 46 78 00 78 96",
+      "wc_start": null,
+      "rva": 48149088,
+      "match_count": 2,
+      "score": 500000,
+      "section": ".data"
+    }
+  },
+  "floorStatus": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "0D 09 00 00 00 00 00 00 00 00 61 44 10 1A",
+      "wc_start": null,
+      "rva": 5413244,
+      "match_count": 2,
+      "score": 500000,
+      "section": ".data"
+    }
+  },
+  "glideBarrier": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "00 00 C8 C3 00 00 80 3F 00 00 00 00 00 00",
+      "wc_start": null,
+      "rva": 5274072,
+      "match_count": 2,
+      "score": 500000,
+      "section": ".data"
+    }
+  },
+  "inTournament": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "61 78 1F 02 8B 05 0B BF 1D 02 89 05 ?? ?? ?? ?? 85 C0 74 1A 44 8B C0 48",
+      "wc_start": 12,
+      "rva": 37279736,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "wall": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "00 00 96 43 20 00 80 3F 00 80 09 C5 00 00",
+      "wc_start": null,
+      "rva": 7194260,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".data"
+    }
+  },
+  "cameraCenter": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "57 FF A8 01 74 20 83 E0 FE 48 89 3D ?? ?? ?? ?? 33 C9 89 05 45 91 35 02",
+      "wc_start": 12,
+      "rva": 39029428,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "cameraInputH": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "1B 02 0F 29 0D 31 2D 80 02 0F 28 0D ?? ?? ?? ?? 0F 29 05 33 2D 80 02 0F",
+      "wc_start": 12,
+      "rva": 36967392,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "cameraInputV": {
+    "type": "scalar",
+    "entry": null
+  },
+  "curSpeedH": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "35 02 F3 0F 10 05 25 AA 20 00 C7 05 ?? ?? ?? ?? 00 00 00 00 E8 F2 A6 0A",
+      "wc_start": 12,
+      "rva": 39028820,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "curSpeedV": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "F0 00 00 00 00 00 80 3F F3 0F 10 0D ?? ?? ?? ?? 45 0F 28 C3 F3 45 0F 59",
+      "wc_start": 12,
+      "rva": 39028816,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "speed": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "81 5C 20 00 F3 0F 5F D0 F3 0F 10 05 ?? ?? ?? ?? F3 0F 59 05 8D 32 35 02",
+      "wc_start": 12,
+      "rva": 5274284,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "textSpeed": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "66 83 78 0C 01 0F 28 F2 F3 0F 5D 35 ?? ?? ?? ?? F3 0F 10 43 20 0F 85 8D",
+      "wc_start": 12,
+      "rva": 36963804,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "neverland": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "04 04 03 03 01 04 04 04 07 03 01 07 16 01",
+      "wc_start": null,
+      "rva": 48151639,
+      "match_count": 2,
+      "score": 500000,
+      "section": ".data"
+    }
+  },
+  "posDebug1": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "05 10 4E 1B 02 0F 57 C9 66 0F 7F 0D ?? ?? ?? ?? 66 0F 7F 05 1D 4E 1B 02",
+      "wc_start": 12,
+      "rva": 36890400,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "posDebugString": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "49 0F 7E D9 66 49 0F 7E D0 48 8D 15 ?? ?? ?? ?? 48 8D 4C 24 40 E8 4C F5",
+      "wc_start": 12,
+      "rva": 4108744,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "monstro": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "03 01 04 04 04 07 03 01 07 16 01 05 07 0B",
+      "wc_start": null,
+      "rva": 48151642,
+      "match_count": 2,
+      "score": 500000,
+      "section": ".data"
+    }
+  },
+  "normalDrive": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "89 E2 49 02 00 74 3B 48 8B C5 39 2D ?? ?? ?? ?? 49 0F 44 C6 C7 44 24 30",
+      "wc_start": 12,
+      "rva": 40411756,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "worldWarpBase": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "0E 00 2D 00 00 00 05 00 08 00 2E 00 00 00",
+      "wc_start": null,
+      "rva": 5306874,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".data"
+    }
+  },
+  "worldWarpBase2": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "07 00 25 00 00 00 0D 00 0A 00 26 00 00 00",
+      "wc_start": null,
+      "rva": 5306986,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".data"
+    }
+  },
+  "animHalfPointersAddress": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "40 7E 03 33 C0 C3 48 63 C1 48 8D 0D ?? ?? ?? ?? 48 8D 04 80 48 03 C0 48",
+      "wc_start": 12,
+      "rva": 42379288,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "ardoffsetClock": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "75 10 48 8D 2D 87 A8 1E 02 48 8D 1D ?? ?? ?? ?? EB 0E 48 8D 2D 1B 0E 21",
+      "wc_start": 12,
+      "rva": 37327504,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "battleLevel": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "1F 00 00 00 FF FF FF FF 80 00 00 00 06 00",
+      "wc_start": null,
+      "rva": 48150308,
+      "match_count": 2,
+      "score": 500000,
+      "section": ".data"
+    }
+  },
+  "characters": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "AF FF FF F7 CF EF FB EF A9 F5 B7 F7 FB 7F",
+      "wc_start": null,
+      "rva": 48149572,
+      "match_count": 2,
+      "score": 500000,
+      "section": ".data"
+    }
+  },
+  "chestTable": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "83 EA 01 0F 85 15 FF FF FF 4C 8D 05 ?? ?? ?? ?? 41 B9 00 02 00 00 0F 1F",
+      "wc_start": 12,
+      "rva": 5413472,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "chestsOpened": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "00 00 00 00 00 00 00 00 00 00 00 00 0F 00",
+      "wc_start": null,
+      "rva": 48145272,
+      "match_count": 6,
+      "score": 166666,
+      "section": ".data"
+    }
+  },
+  "chronicles": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "20 00 00 00 20 00 00 00 20 00 00 00 20 00",
+      "wc_start": null,
+      "rva": 48150267,
+      "match_count": 4,
+      "score": 250000,
+      "section": ".data"
+    }
+  },
+  "collectedFruits": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "44 89 05 D7 09 1B 02 44 03 D1 8B 0D ?? ?? ?? ?? 41 F7 E2 C1 EA 05 6B C2",
+      "wc_start": 12,
+      "rva": 36891144,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "currentTerminus": {
+    "type": "scalar",
+    "entry": null
+  },
+  "donaldAbilityTable": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "00 00 00 00 00 00 00 9A 00 00 00 00 97 00",
+      "wc_start": null,
+      "rva": 47347296,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".data"
+    }
+  },
+  "donaldStatTable": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "01 04 05 04 05 04 01 05 01 03 01 04 05 06",
+      "wc_start": null,
+      "rva": 47347192,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".data"
+    }
+  },
+  "emblemCount": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "00 03 03 03 03 01 01 14 14 14 14 14 14 14",
+      "wc_start": null,
+      "rva": 48151565,
+      "match_count": 2,
+      "score": 500000,
+      "section": ".data"
+    }
+  },
+  "emblemDoor": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "04 00 84 75 1C 00 00 00 BA 00 05 00 04 27",
+      "wc_start": null,
+      "rva": 48151580,
+      "match_count": 2,
+      "score": 500000,
+      "section": ".data"
+    }
+  },
+  "enableRC": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "00 00 00 00 18 20 00 00 00 00 00 00 00 00",
+      "wc_start": null,
+      "rva": 48145876,
+      "match_count": 2,
+      "score": 500000,
+      "section": ".data"
+    }
+  },
+  "evidence": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "01 00 00 00 00 00 00 00 00 00 00 00 00 00",
+      "wc_start": null,
+      "rva": 48147304,
+      "match_count": 6,
+      "score": 166666,
+      "section": ".data"
+    }
+  },
+  "evidenceActiveBizarre": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "03 80 00 00 1B 00 04 00 00 00 00 00 00 00",
+      "wc_start": null,
+      "rva": 47437232,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".data"
+    }
+  },
+  "evidenceActiveForest": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "00 80 00 00 1F 00 04 00 00 00 00 00 00 00",
+      "wc_start": null,
+      "rva": 47439632,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".data"
+    }
+  },
+  "experienceMult": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "50 44 F3 0F 11 44 24 3C F3 0F 59 0D ?? ?? ?? ?? F3 0F 58 0D 04 D9 18 00",
+      "wc_start": 12,
+      "rva": 47568128,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "goofyAbilityTable": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "00 00 00 00 00 00 00 9E 00 00 9B 00 00 9D",
+      "wc_start": null,
+      "rva": 47347704,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".data"
+    }
+  },
+  "goofyStatTable": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "05 04 05 01 05 01 05 01 04 06 03 01 05 02",
+      "wc_start": null,
+      "rva": 47347600,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".data"
+    }
+  },
+  "gummiFlagBase": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "B1 02 48 89 05 E5 FC B1 02 48 89 05 ?? ?? ?? ?? 48 89 05 E7 FC B1 02 48",
+      "wc_start": 12,
+      "rva": 48151632,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "halfPointersAddress": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "C9 48 03 C8 49 89 49 08 C3 48 8D 0D ?? ?? ?? ?? 49 89 49 08 C3 CC CC CC",
+      "wc_start": 12,
+      "rva": 49170224,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "infoBoxNotVisible": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "63 F1 4C 8D 25 FF EB 1D 02 44 89 35 ?? ?? ?? ?? 48 8D 1D 51 E0 21 02 49",
+      "wc_start": 12,
+      "rva": 37571600,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "instantGummiFix": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "08 61 35 02 B9 10 10 00 00 48 89 1D ?? ?? ?? ?? 48 89 1D 2D 61 35 02 48",
+      "wc_start": 12,
+      "rva": 39029192,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "inventory": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "2D 63 3D 16 00 07 08 00 01 01 00 00 00 00",
+      "wc_start": null,
+      "rva": 48144890,
+      "match_count": 2,
+      "score": 500000,
+      "section": ".data"
+    }
+  },
+  "itemDropID": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "44 24 50 8B 41 08 89 44 24 48 8B 05 ?? ?? ?? ?? 89 6C 24 40 F3 0F 11 44",
+      "wc_start": 12,
+      "rva": 42263368,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "itemTable": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "A9 02 48 8D 3D 1D 69 A9 02 48 8D 05 ?? ?? ?? ?? 48 89 3D C7 9E AA 02 48",
+      "wc_start": 12,
+      "rva": 47337880,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "jumpHeights": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "BE 00 22 01 FA 00 4A 01 D2 00 22 01 D2 00",
+      "wc_start": null,
+      "rva": 47331308,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".data"
+    }
+  },
+  "language": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "38 2F 41 01 31 2B 37 2F 00 0E E4 FF 3D 49",
+      "wc_start": null,
+      "rva": 48348971,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".data"
+    }
+  },
+  "libraryFlag": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "03 0E 0E 0D 0E 0E 03 02 00 0E 02 00 00 00",
+      "wc_start": null,
+      "rva": 48152195,
+      "match_count": 2,
+      "score": 500000,
+      "section": ".data"
+    }
+  },
+  "lockMenu": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "C7 05 B1 EA 17 02 02 00 00 00 C7 05 ?? ?? ?? ?? 01 00 00 00 74 17 E8 8C",
+      "wc_start": 12,
+      "rva": 36891020,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "magicFlags": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "03 03 03 03 03 03 03 40 00 00 00 00 00 00",
+      "wc_start": null,
+      "rva": 48150910,
+      "match_count": 2,
+      "score": 500000,
+      "section": ".data"
+    }
+  },
+  "magicLevels": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "03 03 03 03 03 03 03 00 2D 63 3D 16 00 07",
+      "wc_start": null,
+      "rva": 48144882,
+      "match_count": 2,
+      "score": 500000,
+      "section": ".data"
+    }
+  },
+  "menuCheck": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "00 33 C0 C3 CC CC CC CC CC CC 8B 05 ?? ?? ?? ?? A9 FA FF FF FF 75 05 83",
+      "wc_start": 12,
+      "rva": 48837144,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "mermaidKickSpeed": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "91 CC 03 00 00 48 8B C2 F3 0F 10 0D ?? ?? ?? ?? 0F 2F CA 76 23 F3 0F 10",
+      "wc_start": 12,
+      "rva": 4130956,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "OCCupDialog": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "1C 00 00 00 FF FF FF FF 01 00 00 00 01 00",
+      "wc_start": null,
+      "rva": 37333552,
+      "match_count": 3,
+      "score": 333333,
+      "section": ".data"
+    }
+  },
+  "OCCupUnlock": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "B1 02 48 89 05 C7 FC B1 02 48 89 05 ?? ?? ?? ?? 48 89 05 C9 FC B1 02 48",
+      "wc_start": 12,
+      "rva": 48151392,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "oppositeState": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "B1 02 48 89 05 9E FC B1 02 48 89 05 ?? ?? ?? ?? 48 89 05 A0 FC B1 02 48",
+      "wc_start": 12,
+      "rva": 48151064,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "oppositeTrigger": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "01 00 00 00 00 00 00 00 00 00 00 00 00 00",
+      "wc_start": null,
+      "rva": 48147069,
+      "match_count": 6,
+      "score": 166666,
+      "section": ".data"
+    }
+  },
+  "party2": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "24 50 44 8B 0D 47 AD BB 02 48 8D 1D ?? ?? ?? ?? 33 FF 45 33 F6 B8 01 00",
+      "wc_start": 12,
+      "rva": 48369509,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "poohProgress": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "B1 02 48 89 05 B0 FC B1 02 48 89 05 ?? ?? ?? ?? 48 89 05 B2 FC B1 02 48",
+      "wc_start": 12,
+      "rva": 48151208,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "poohProgress2": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "02 00 03 00 09 00 04 00 04 00 03 00 00 00",
+      "wc_start": null,
+      "rva": 48148864,
+      "match_count": 2,
+      "score": 500000,
+      "section": ".data"
+    }
+  },
+  "RCName": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "33 C0 89 02 C7 01 00 00 20 C1 88 05 ?? ?? ?? ?? 89 05 71 D6 5D 02 C3 8B",
+      "wc_start": 12,
+      "rva": 42366736,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "rewardTable": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "A9 02 48 89 05 95 9E AA 02 48 8D 05 ?? ?? ?? ?? 48 89 05 97 9E AA 02 48",
+      "wc_start": 12,
+      "rva": 47381992,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "roomWarpRead": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "A4 2A 02 FE 89 1D A3 9F 21 02 89 1D ?? ?? ?? ?? 89 1D 07 4B 26 02 89 1D",
+      "wc_start": 12,
+      "rva": 36890888,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "savedFruits": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "00 00 00 00 00 04 04 04 04 05 01 00 00 00",
+      "wc_start": null,
+      "rva": 48151198,
+      "match_count": 2,
+      "score": 500000,
+      "section": ".data"
+    }
+  },
+  "sharedAbilities": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "01 03 02 04 00 00 00 00 00 00 00 00 00 00",
+      "wc_start": null,
+      "rva": 48145145,
+      "match_count": 2,
+      "score": 500000,
+      "section": ".data"
+    }
+  },
+  "shopTableBase": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "01 00 00 00 02 00 00 00 03 00 00 00 8E 00",
+      "wc_start": null,
+      "rva": 5239748,
+      "match_count": 5,
+      "score": 200000,
+      "section": ".data"
+    }
+  },
+  "shortcuts": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "02 03 00 00 39 01 BE 02 62 13 09 00 DC 00",
+      "wc_start": null,
+      "rva": 48145828,
+      "match_count": 2,
+      "score": 500000,
+      "section": ".data"
+    }
+  },
+  "slideActive": {
+    "type": "scalar",
+    "entry": null
+  },
+  "sliderProgress": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "01 01 01 00 00 00 00 00 00 00 04 04 04 04",
+      "wc_start": null,
+      "rva": 48151193,
+      "match_count": 2,
+      "score": 500000,
+      "section": ".data"
+    }
+  },
+  "soraAbilityTable": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "00 00 00 00 B9 00 00 85 00 00 B8 00 00 8A",
+      "wc_start": null,
+      "rva": 47346488,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".data"
+    }
+  },
+  "soraAbilityTable2": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "00 00 00 00 B6 00 00 8A 00 00 B5 00 00 93",
+      "wc_start": null,
+      "rva": 47346280,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".data"
+    }
+  },
+  "soraAbilityTable3": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "00 06 00 00 B5 00 00 9A 00 00 BC 00 00 95",
+      "wc_start": null,
+      "rva": 47346384,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".data"
+    }
+  },
+  "soraStatTable": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "04 05 04 05 01 04 01 05 01 03 02 04 01 05",
+      "wc_start": null,
+      "rva": 47346176,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".data"
+    }
+  },
+  "summons": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "05 02 03 00 01 04 FF 00 32 00 71 02 46 00",
+      "wc_start": null,
+      "rva": 48145712,
+      "match_count": 2,
+      "score": 500000,
+      "section": ".data"
+    }
+  },
+  "summonsReturned": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "01 01 01 01 01 01 01 01 01 00 00 02 01 01",
+      "wc_start": null,
+      "rva": 48147084,
+      "match_count": 2,
+      "score": 500000,
+      "section": ".data"
+    }
+  },
+  "superglideSpeedHack": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "BC FF 17 00 76 32 0F 28 F0 F3 0F 5E F1 F3",
+      "wc_start": null,
+      "rva": 2820340,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "synthItems": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "06 00 00 03 00 00 00 00 00 00 90 00 03 02",
+      "wc_start": null,
+      "rva": 5539200,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".data"
+    }
+  },
+  "synthRequirements": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "EC 00 01 00 EE 00 01 00 FD 00 04 00 E9 00",
+      "wc_start": null,
+      "rva": 5538720,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".data"
+    }
+  },
+  "terminusTeleUsable": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "01 00 00 00 00 00 00 00 00 00 00 00 00 00",
+      "wc_start": null,
+      "rva": 37317668,
+      "match_count": 6,
+      "score": 166666,
+      "section": ".data"
+    }
+  },
+  "textBox": {
+    "type": "scalar",
+    "entry": null
+  },
+  "textPointerBase": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "91 02 48 89 0D 0F 14 91 02 48 89 0D ?? ?? ?? ?? B9 40 0D 03 00 48 89 05",
+      "wc_start": 12,
+      "rva": 45730944,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "trinityUnlock": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "1F 0B 00 03 03 03 03 03 03 03 40 00 00 00",
+      "wc_start": null,
+      "rva": 48150907,
+      "match_count": 2,
+      "score": 500000,
+      "section": ".data"
+    }
+  },
+  "unequipBlacklist": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "00 C3 48 8B 05 39 29 58 02 48 8D 15 ?? ?? ?? ?? 0F B6 48 36 48 8D 05 B3",
+      "wc_start": 12,
+      "rva": 5529632,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "unlockedWarps": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "07 03 01 07 16 01 05 07 0B 07 03 06 00 00",
+      "wc_start": null,
+      "rva": 48151647,
+      "match_count": 2,
+      "score": 500000,
+      "section": ".data"
+    }
+  },
+  "warpCount": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "03 00 00 00 02 00 00 00 03 00 00 00 00 00",
+      "wc_start": null,
+      "rva": 5307084,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".data"
+    }
+  },
+  "warpDefinitions": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "3D 1B 02 8B 4A 3C 89 48 1C 48 8B 05 ?? ?? ?? ?? 49 0F BE C8 4C 8B 05 D2",
+      "wc_start": 12,
+      "rva": 36890880,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "waterwayCutsceneFlag": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "01 00 00 01 00 00 00 01 01 00 01 01 00 00",
+      "wc_start": null,
+      "rva": 48147058,
+      "match_count": 2,
+      "score": 500000,
+      "section": ".data"
+    }
+  },
+  "waterwayGate": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "C0 F8 00 6C 00 B8 00 FC 00 F8 00 C0 00 83",
+      "wc_start": null,
+      "rva": 48150989,
+      "match_count": 2,
+      "score": 500000,
+      "section": ".data"
+    }
+  },
+  "waterwayTrinity": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "BF 08 28 01 00 00 01 05 01 00 00 00 00 08",
+      "wc_start": null,
+      "rva": 48151057,
+      "match_count": 2,
+      "score": 500000,
+      "section": ".data"
+    }
+  },
+  "weaponTable": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "03 14 00 1E 10 2B 00 00 00 00 00 00 00 00",
+      "wc_start": null,
+      "rva": 47369320,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".data"
+    }
+  },
+  "worldMapLines": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "FE F0 FC FC E0 1B B7 B1 00 03 00 7F 81 00",
+      "wc_start": null,
+      "rva": 48151666,
+      "match_count": 2,
+      "score": 500000,
+      "section": ".data"
+    }
+  },
+  "worldWarps": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "04 00 00 00 00 00 00 00 04 00 03 00 24 00",
+      "wc_start": null,
+      "rva": 5306856,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".data"
+    }
+  },
+  "gummiInventory": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "06 06 04 02 01 63 63 63 1E 1E 0A 0A 0A 63",
+      "wc_start": null,
+      "rva": 48192476,
+      "match_count": 2,
+      "score": 500000,
+      "section": ".data"
+    }
+  },
+  "magicUnlock": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "7F 00 00 00 57 36 36 09 0A 19 33 31 64 64",
+      "wc_start": null,
+      "rva": 48143828,
+      "match_count": 2,
+      "score": 500000,
+      "section": ".data"
+    }
+  },
+  "party1": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "02 01 FF 03 03 03 03 03 03 03 00 2D 63 3D",
+      "wc_start": null,
+      "rva": 48144879,
+      "match_count": 2,
+      "score": 500000,
+      "section": ".data"
+    }
+  },
+  "soraCurAbilities": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "C0 16 B9 85 B8 0A 37 17 07 3C 15 92 3E 18",
+      "wc_start": null,
+      "rva": 48143780,
+      "match_count": 2,
+      "score": 500000,
+      "section": ".data"
+    }
+  },
+  "cam": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "F3 0F 59 05 F1 01 16 02 F3 0F 59 05 ?? ?? ?? ?? F3 0F 5C C8 0F 2F 0D 3A",
+      "wc_start": 12,
+      "rva": 5274280,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "config": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "AB 48 8B 7C 24 08 C3 33 C0 48 89 05 ?? ?? ?? ?? 48 89 05 62 3D B3 02 48",
+      "wc_start": 12,
+      "rva": 48234848,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "continue": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "CC CC CC 41 B8 00 6C 01 00 48 8D 15 ?? ?? ?? ?? 48 8D 0D 3C CB B1 02 E9",
+      "wc_start": 12,
+      "rva": 48236896,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "cutSceneAspect": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "80 3F 00 00 80 3F 00 00 80 3F 00 00 80 3F",
+      "wc_start": null,
+      "rva": 5104194,
+      "match_count": 6,
+      "score": 166666,
+      "section": ".data"
+    }
+  },
+  "deathCheck": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "74 2E 0F B7 8F 7C 01 00 00 E8 52 83 F2 FF",
+      "wc_start": null,
+      "rva": 2727712,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "saveAnywhere": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "00 74 97 8B CB E8 D6 19 06 00 8B 05 ?? ?? ?? ?? 89 05 62 18 1B 02 89 1D",
+      "wc_start": 12,
+      "rva": 37048916,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "title": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "02 00 00 00 00 E8 4F AD F6 FF 8B 0D ?? ?? ?? ?? 84 C0 BA 01 00 00 00 0F",
+      "wc_start": 12,
+      "rva": 36965944,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "titlescreenamvtimer": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "E8 3A 8A D4 FF E8 B5 CE FF FF 8B 05 ?? ?? ?? ?? FF C8 81 3D 3F 21 FB 01",
+      "wc_start": 12,
+      "rva": 49191252,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "titlescreenpicture": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "00 0F 45 C1 39 1D F9 01 F6 01 89 05 ?? ?? ?? ?? 0F 95 C3 83 C3 02 89 1D",
+      "wc_start": 12,
+      "rva": 49191272,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "volumeZero": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "CD CC CC 3D CD CC 4C 3E 9A 99 99 3E CD CC",
+      "wc_start": null,
+      "rva": 4037524,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".rdata"
+    }
+  },
+  "synthItemSelected": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "B9 02 E8 55 DA FE FF 48 8B CD 89 05 ?? ?? ?? ?? E8 47 E9 FE FF 85 C0 0F",
+      "wc_start": 12,
+      "rva": 48867608,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "evdlPointer": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "CC CC CC CC CC 48 83 EC 28 48 89 0D ?? ?? ?? ?? 48 85 C9 74 64 0F B6 05",
+      "wc_start": 12,
+      "rva": 37024136,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "bambi": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "C0 0E BD 2E A0 DA DD CD 11 F0 FE EE 46 02",
+      "wc_start": null,
+      "rva": 28300036,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".data"
+    }
+  },
+  "summonanywhere1": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "74 61 83 3D 39 A0 0B 02 03 75 09 83 3D 98",
+      "wc_start": null,
+      "rva": 2649626,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "summonanywhere2": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "74 3F 8B 05 78 63 70 02 0F A3 D8 72 44 33",
+      "wc_start": null,
+      "rva": 2649644,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "summonanywhere3": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "75 24 F7 05 43 56 5D 02 00 20 00 00 75 18",
+      "wc_start": null,
+      "rva": 2696841,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "airitems1": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "75 0C 83 0D AC 73 29 00 04 BE FF FF FF FF",
+      "wc_start": null,
+      "rva": 2695759,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "airitems2": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "74 14 83 F8 02 74 42 83 F8 06 74 0A 83 F8",
+      "wc_start": null,
+      "rva": 2758109,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "currentHits": {
+    "type": "scalar",
+    "entry": null
+  },
+  "summonTime": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "B8 0B 00 00 F3 48 0F 2A C2 F3 0F 11 05 66",
+      "wc_start": null,
+      "rva": 2650417,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "chests_interaction": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "74 3A B9 03 00 00 00 E8 10 D5 FD FF 33 C0",
+      "wc_start": null,
+      "rva": 2832644,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "examine_interaction": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "75 10 8B 4E 70 F7 C1 E7 FF FF FF 75 05 83",
+      "wc_start": null,
+      "rva": 2697721,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "talk_interaction": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "75 44 8D 50 04 33 C9 E8 2B E4 FF FF 85 C0",
+      "wc_start": null,
+      "rva": 2697785,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "trinity_interaction": {
+    "type": "scalar",
+    "entry": {
+      "kind": "direct",
+      "pattern": "75 0A B9 03 00 00 00 E8 65 E0 0E 00 8B 84",
+      "wc_start": null,
+      "rva": 1715631,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "boxMemory": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "83 02 48 8D 0C 89 48 03 CA 48 8D 05 ?? ?? ?? ?? 48 69 D9 A0 0B 00 00 48",
+      "wc_start": 12,
+      "rva": 42188176,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "textMemory": {
+    "type": "scalar",
+    "entry": null
+  },
+  "colorBox": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "EB 0E 48 8D 05 25 82 2B 00 48 8D 0D ?? ?? ?? ?? 48 89 8B 88 0B 00 00 48",
+      "wc_start": 12,
+      "rva": 5408528,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  },
+  "colorText": {
+    "type": "scalar",
+    "entry": {
+      "kind": "rip",
+      "pattern": "48 8D 0D FE 81 2B 00 EB 0E 48 8D 05 ?? ?? ?? ?? 48 8D 0D DE 81 2B 00 48",
+      "wc_start": 12,
+      "rva": 5408592,
+      "match_count": 1,
+      "score": 1000000,
+      "section": ".text"
+    }
+  }
+}
