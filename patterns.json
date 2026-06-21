@@ -1776,5 +1776,9 @@
   "battleModeCheck": {
     "pattern": "8B 15 ?? ?? ?? ?? 83 E2 01",
     "offset": 0
+  },
+  "UK_Word": {
+    "pattern": "4D 65 73 73 61 67 65 20 76 33 36 31 E8",
+    "offset": 0
   }
 }
