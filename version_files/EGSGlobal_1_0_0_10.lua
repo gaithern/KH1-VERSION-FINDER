@@ -287,3 +287,12 @@ boxMemory = 0x283BD90
 textMemory = 0x2DC3068
 colorBox = 0x528710
 colorText = 0x528750
+
+-- giftTableScale fix
+giftTableScale = 0x1B5D0C
+
+-- battleModeCheck
+battleModeCheck = 0x1AB266
+
+-- synthesisItemNames
+UK_Word = 0x2E1B660
